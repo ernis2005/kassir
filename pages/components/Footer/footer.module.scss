@@ -1,0 +1,118 @@
+.footer {
+  width: 100%;
+  background-color: #202129;
+  padding-top: 50px;
+  margin: 0 auto;
+  .email {
+    font-family: Roboto;
+    font-style: normal;
+    max-width: 1200px;
+   
+    font-weight: 400;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    margin: 30px 0;
+   margin-bottom: 50px;
+    padding: 20px 30px;
+    display: flex;
+    
+    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+    h2{
+        font-size: 20px;
+        color: #fff;
+    }
+    .input{
+        width: 49%;
+        color: #fff;
+        outline: none;
+        background-color: #ffffff00;
+        border: none;
+        border-bottom:1px white solid;
+    }
+    button{
+        width: 120px;
+        background-color: #ffee5a;
+        height: 40px;
+        border-radius: 6px;
+        border:  solid 1px black;
+    }
+  }
+}
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-around;
+    margin: 0 auto;
+    div{
+        display: block;
+        color: #fff;
+        h3{
+            font-size: 26px;
+            font-weight: 900;
+            border-bottom:1px solid #ffee5a ;
+        }
+        p{
+margin-top: 20px;
+        }
+    }
+}
+
+.hr{
+    margin-top: 50px;
+    color: #fff; 
+    height: 3px;
+}
+.contackt{
+    display: block;
+    p{
+        display: flex;
+    }
+}
+@media screen and (max-width:730px) {
+    .email{
+        display: flex;
+     
+        block-size: auto;
+        flex-direction: column;
+        h2{
+            font-size: 20px;
+            color: #fff;
+        }
+        .input{
+          min-width: 90%;
+            
+        }
+        &:button{
+            width: 120px;
+            background-color: #ffee5a;
+            height: 40px;
+            border-radius: 6px;
+            border:  solid 1px black;
+        }
+    }
+}
+.ssss{
+    .sss{
+        display: flex;
+    
+        justify-content: space-around;
+        a{
+            font-size: 20px;
+            margin-top: 10px;
+        }
+    }
+}
+
+.h5{
+font-size: 15px;
+justify-content: center;
+margin: 0 auto;
+text-align: center;
+padding: 50px;
+color: #fff;
+}

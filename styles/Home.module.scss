@@ -1,0 +1,175 @@
+.header {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  margin-bottom: 40px;
+  .menu {
+    max-width: 100%;
+    background-color: #ffee5a;
+    margin: 0 auto;
+    justify-content: center;
+ 
+    .menu_block {
+      margin: 0 auto;
+      max-width: 1200px;
+      padding: 15px 0;
+      display: flex;
+      justify-content: space-between;
+      .menu_block_block1 {
+        display: flex;
+      }
+      .menu_info {
+        display: flex;
+        .menu_info_tel {
+          display: flex;
+          align-items: center;
+          font-size: 18px;
+         font-weight: 600;
+        }
+        .menu_info_ru {
+          margin-left: 20px;
+          display: flex;
+          .menu_info_button {
+            border: none;
+            background-color: rgba(0, 255, 255, 0);
+          }
+        }
+      }
+    }
+  }
+}
+.menu_input {
+  margin-left: 40px;
+
+  flex-grow: 1;
+  .BiSearch {
+    margin-top: 13px;
+    position: absolute;
+    margin-left: 20px;
+    padding: 0;
+  }
+  input {
+    width: 500px;
+
+    border-radius: 10px;
+    height: 40px;
+    padding: 0 0 0 48px;
+    border: none;
+    font-size: 12px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+  }
+}
+
+.IoIosArrowDown {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+.SlBasket {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.modalSearch {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background-color: #ffee5a;
+  text-align: center;
+  z-index: 111;
+  input {
+    outline: none;
+    width: 90%;
+    background-color: #fff;
+    margin-top: 4px;
+    height: 90%;
+    padding-right: 50px;
+    padding-left: 10px;
+    border-radius: 10px;
+  }
+  .FiX {
+    position: absolute;
+    z-index: 112;
+    width: 90%;
+    height: 40px;
+    .FiX2 {
+      position: absolute;
+      z-index: 222;
+      width: 20px;
+
+      height: 20px;
+      font-size: 25px;
+      margin-top: -40px;
+      right: 0px;
+    }
+  }
+}
+
+@media screen and (max-width: 1044px) {
+  .menu_info1 {
+    display: none;
+  }
+
+  .menu_input {
+    input {
+      display: none;
+      max-width: 200px;
+    }
+  }
+  .menu_block {
+    display: flex;
+    justify-content: center;
+  }
+  .BiSearch {
+    font-size: 25px;
+    display: block;
+    right: 0;
+    margin-right: 10px;
+    position: relative;
+  }
+}
+.sorting_Tabs {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+ 
+  overflow-x: scroll;
+    padding-right: 20px;
+    margin-top: 10px;
+
+   
+  justify-content: space-between;
+  left: 0;
+  
+  .sorting_Tab {
+    color: black;
+    font-size: 26px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+    &:hover {
+      border-bottom: solid 2px black;
+      transition: 0.3s;
+    }
+  }
+}
+.sorting_Tabs::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  .sorting_Tabs::-webkit-scrollbar-thumb {
+   
+    border-radius: 8px;
+    bottom: 3px solid #d4d4d4;
+  }
+
+  .vps{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 150px;
+    height: 150px;
+    background-color: #ffee5a;
+  }
