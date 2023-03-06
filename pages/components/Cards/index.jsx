@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import s from "../syle.module.scss";
 import Image from "next/image";
 import {
@@ -10,8 +10,8 @@ import {
   useToast,
 } from "@chakra-ui/react";
 const Cads = ({ data }) => {
-  let [loading, setloading] = useState<boolean>(true);
-  let [modal, setModal] = useState<boolean>(false);
+  let [loading, setloading] = useState(true);
+
   setTimeout(() => {
     setloading(() => false);
   }, 100);
