@@ -2,10 +2,7 @@ import React, { useState } from "react";
 import s from "../syle.module.scss";
 import Image from "next/image";
 import {
-  Alert,
-  AlertIcon,
-  AlertTitle,
-  AlertDescription,
+
   Button,
   useToast,
 } from "@chakra-ui/react";
@@ -14,7 +11,7 @@ const Cads = ({ data }) => {
 
   setTimeout(() => {
     setloading(() => false);
-  }, 100);
+  }, 10);
   const toast = useToast()
 
   return (

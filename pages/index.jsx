@@ -44,7 +44,7 @@ export default function Home() {
     setFiltertype(name)
   }
   let data3 = data2.filter((res) => {
-    if (res.type == filtertype.name |'концерт' ) {
+    if (res.type == filtertype.name ) {
       return true
     }
   })
